@@ -9,6 +9,8 @@ var bodyParser = require('body-parser');
 var passport = require('passport');
 var localStratergy = require('passport-local').Stratergy;
 var bcrypt = require('bycrypt');
+var header = require('Header');
+var footer = require('Footer');
 const MongoStore = require('connect-mongo')(session);
 var mongoose = require('mongoose');
 const uri = "mongodb + srv://Deep:123@cluster0.dizjf.mongodb.net/Deep?retryWrites=true&w=majority"
@@ -43,6 +45,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(header);
+app.use(footer);
 //Init passport auth
 app.use(passport.initialize());
 app.use(passport.session());
