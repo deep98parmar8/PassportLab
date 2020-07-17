@@ -1,0 +1,3 @@
+C:\Users\17055\source\repos\PaasportAuthLab\PaasportAuthLab\obj\Debug\PaasportAuthLab.njsprojAssemblyReference.cache
+C:\Users\17055\source\repos\PaasportAuthLab\PaasportAuthLab\obj\Debug\PaasportAuthLab.njsproj.CoreCompileInputs.cache
+C:\Users\17055\source\repos\PaasportAuthLab\PaasportAuthLab\bin\Microsoft.NodejsTools.WebRole.dll
